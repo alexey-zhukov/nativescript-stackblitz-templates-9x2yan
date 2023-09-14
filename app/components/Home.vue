@@ -1,7 +1,10 @@
 <template>
   <Page>
+    <ActionBar title="Test!!!">
+      <Button @tap="logMessage">Test</Button>
+    </ActionBar>
     <GridLayout>
-      <Button>Test</Button>
+      <Button @tap="logMessage">Test</Button>
     </GridLayout>
   </Page>
 </template>
